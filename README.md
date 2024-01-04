@@ -1,1 +1,1 @@
-# snowflake-challenges
+# Snowflake Challenges
