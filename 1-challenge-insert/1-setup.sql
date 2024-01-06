@@ -1,4 +1,4 @@
-create or replace database inserts_db;
+create or replace database challenge_insert;
 
 create table Fruits (name string) as
   select * from values ('apple'), ('orange'), ('apple');

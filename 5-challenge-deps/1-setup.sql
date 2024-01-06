@@ -1,4 +1,4 @@
-create or replace database deps_db;
+create or replace database challenge_deps;
 
 create table T1(id int, json variant);
 create table T2(id int, id_t1 int, name string);

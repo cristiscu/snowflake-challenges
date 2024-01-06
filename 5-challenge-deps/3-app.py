@@ -1,3 +1,5 @@
+import streamlit as st
+
 from snowflake.snowpark.context import get_active_session
 session = get_active_session()
 
@@ -12,7 +14,7 @@ rows = session.sql(query).collect()
 edges = ""
 for row in rows:
     edges += f'\t"{str(row[0])}" -> "{str(row[1])}";\n'
-d = 'digraph {{{edges}}}'
+d = f'digraph {{\n\tgraph [rankdir="LR"]\n{edges}}}'
 
-import streamlit as st
+st.code(d)
 st.graphviz_chart(d)

@@ -1,0 +1,3 @@
+# ...
+
+https://medium.com/snowflake/how-to-properly-generate-a-dynamic-pivot-query-in-snowflake-921bde88b300 

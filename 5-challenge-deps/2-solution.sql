@@ -1,6 +1,6 @@
 -- show ALL object dependencies (in whole account!)
 select *
-from snowflake.account_usage.object_dependencies;;
+from snowflake.account_usage.object_dependencies;
 
 -- show VIEW-TABLE deps
 select referencing_object_name, referenced_object_name

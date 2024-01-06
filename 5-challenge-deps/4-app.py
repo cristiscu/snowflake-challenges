@@ -1,3 +1,5 @@
+import streamlit as st
+
 from snowflake.snowpark.context import get_active_session
 session = get_active_session()
 
@@ -24,8 +26,6 @@ d = ('digraph {\n'
     + f'{edges}'
     + '}')
 
-import streamlit as st
-st.graphviz_chart(d)
-
 # paste at http://magjac.com/graphviz-visual-editor/
 st.code(d)
+st.graphviz_chart(d)
