@@ -8,7 +8,7 @@ from snowflake.account_usage.object_dependencies
 where referencing_object_domain = 'VIEW'
 and referenced_object_domain = 'TABLE';
 
--- better query (including materialized views)
+-- alternative: w/ fully qualified names + materialized views
 select referencing_object_domain as viewType,
   referencing_database
   || '.' || referencing_schema

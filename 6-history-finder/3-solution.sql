@@ -1,3 +1,6 @@
+-- with Query History (when Time Travel not available)
+-- see https://docs.snowflake.com/en/sql-reference/functions/query_history
+
 use schema challenge_history.public;
 
 -- for the CUSTOMER table --> check retention_time=1 (one day!)

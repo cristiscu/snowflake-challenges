@@ -1,3 +1,4 @@
+use schema challenge_secret.public;
 use role mary;
 insert into vault_mary values ('I like cookies');
 

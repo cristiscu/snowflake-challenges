@@ -1,3 +1,5 @@
+use schema challenge_pivot.public;
+
 -- initial pivot query
 select country, "'married'", "'single'"
 from (select country, status, orders from Customers)
@@ -18,16 +20,6 @@ select country,
   sum(case when status='married' and gender='female' then orders end) as "'married female'",
   sum(case when status='single' and gender='male' then orders end) as "'single male'",
   sum(case when status='single' and gender='female' then orders end) as "'single female'"
-from Customers
-group by country
-order by country;
-
--- emulated query with multiple aggregate values
-select country,
-  sum(case when status='married' then orders end) as "'married orders'",
-  sum(case when status='married' then spent end) as "'married spent'",
-  sum(case when status='single' then orders end) as "'single orders'",
-  sum(case when status='single' then spent end) as "'single spent'"
 from Customers
 group by country
 order by country;

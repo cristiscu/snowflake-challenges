@@ -1,3 +1,4 @@
+use schema challenge_secret.public;
 use role jack;
 insert into vault_jack values ('I like grapes');
 

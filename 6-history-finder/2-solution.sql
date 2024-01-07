@@ -1,3 +1,6 @@
+-- with Time Travel
+-- see https://docs.snowflake.com/en/sql-reference/constructs/at-before
+
 use schema challenge_history.public;
 
 -- for the CUSTOMER table --> check retention_time=1 (one day!)
@@ -18,6 +21,8 @@ select count(*) from customers
 at (timestamp => '2024-01-06 07:27:42.874 -0800'::TIMESTAMP_LTZ);
 
 -- this will not fail, but nt working as expected --> time-travel requires constant parameters!
+-- see https://stackoverflow.com/questions/59121146/use-dynamic-value-in-snowflake-time-travel-sql
+-- see https://docs.snowflake.com/en/sql-reference/functions/generator
 with gen as (
   select seq4() + 1 as step
   from table(generator(rowcount => 10))),
