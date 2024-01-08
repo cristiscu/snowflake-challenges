@@ -1,5 +1,5 @@
-# ...
+# Dependency Graph
 
-Create Streamlit App w/ graphviz and query object_dependencies for views.
+## Question
 
-http://magjac.com/graphviz-visual-editor/
+In Snowsight, display a graph with the tables used by every view from your Snowflake account.

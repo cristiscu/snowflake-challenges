@@ -15,6 +15,7 @@ group by country
 order by country;
 
 -- emulated query with multiple pivot columns (SOLUTION!)
+-- see also https://medium.com/snowflake/how-to-properly-generate-a-dynamic-pivot-query-in-snowflake-921bde88b300 
 select country,
   sum(case when status='married' and gender='male' then orders end) as "'married male'",
   sum(case when status='married' and gender='female' then orders end) as "'married female'",

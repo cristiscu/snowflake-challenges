@@ -5,7 +5,7 @@ insert into vault_jack values ('I like grapes');
 -- this should fail
 select * from vault_mary;
 
--- allows Mary to run one single possible query!
+-- allows Mary to run one single possible query (SOLUTION!)
 create row access policy vault_jack_access
   as (secrets string) returns boolean ->
   current_role() in ('ACCOUNTADMIN', 'JACK')

@@ -1,9 +1,7 @@
-# ...
+# Tabular Data Editor
 
+## Question
 
-https://docs.streamlit.io/library/api-reference/data/st.data_editor
+What is the easiest way to add, delete or modify some table data in Snowsight, without typing any SQL?
 
-https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/latest/api/snowflake.snowpark.Session.write_pandas
-
-https://medium.com/snowflake/editable-snowflake-tables-in-streamlit-a-demo-79c18b5a4099
-
+Hint: But you may type ...Python! ;)

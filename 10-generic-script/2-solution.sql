@@ -1,6 +1,6 @@
 -- Generic Script with Variable Substitution for SnowSQL
 -- =====================================================
--- snowsql -c my_conn -f 2-solution.sql -D tenant=HP -D env=PROD
+-- snowsql -c demo_conn -f 2-solution.sql -D tenant=HP -D env=PROD
 
 -- have variable substitution ON
 !SET VARIABLE_SUBSTITUTION=true;

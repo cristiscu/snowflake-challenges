@@ -16,5 +16,6 @@ for row in rows:
     edges += f'\t"{str(row[0])}" -> "{str(row[1])}";\n'
 d = f'digraph {{\n\tgraph [rankdir="LR"]\n{edges}}}'
 
+# see also http://magjac.com/graphviz-visual-editor/
 st.code(d)
 st.graphviz_chart(d)
