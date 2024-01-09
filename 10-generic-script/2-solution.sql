@@ -1,6 +1,7 @@
 -- Generic Script with Variable Substitution for SnowSQL
 -- =====================================================
 -- snowsql -c demo_conn -f 2-solution.sql -D tenant=HP -D env=PROD
+-- see https://medium.com/snowflake/variable-substitution-for-multi-tenant-apps-and-deployment-environments-8d6c0f89d11a
 
 -- have variable substitution ON
 !SET VARIABLE_SUBSTITUTION=true;
