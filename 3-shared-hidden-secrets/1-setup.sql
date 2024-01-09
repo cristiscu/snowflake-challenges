@@ -1,3 +1,4 @@
+-- copy, paste & run this from a new SQL worksheet in your Snowflake account
 use role accountadmin;
 create or replace database challenge_secret;
 

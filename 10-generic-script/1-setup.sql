@@ -1,3 +1,4 @@
+-- copy, paste & run this from a new SQL worksheet in your Snowflake account
 -- drop local objects
 USE ROLE SYSADMIN;
 DROP DATABASE IF EXISTS HP_DB_PROD;

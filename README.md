@@ -1,6 +1,6 @@
-# 10 Ultimate Snowflake Challenges
+# Top 10 Ultimate Snowflake Challenges
 
-Presentation slides for my 100% FREE Udemy course **10 Ultimate Snowflake Challenges**.
+Presentation slides for my Udemy course **Top 10 Ultimate Snowflake Challenges**.
 
 ## Summary
 

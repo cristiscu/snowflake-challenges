@@ -1,3 +1,4 @@
+-- copy, paste & run this from a new SQL worksheet in your Snowflake account
 create or replace database challenge_deps;
 
 create table T1(id int, json variant);
