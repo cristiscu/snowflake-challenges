@@ -1,6 +1,12 @@
 # Top 10 Ultimate Snowflake Challenges
 
-Presentation slides for my Udemy course **Top 10 Ultimate Snowflake Challenges**.
+Presentation slides for my Udemy video course [**Top 10 Ultimate Snowflake Challenges - 2024 Hands-On!**](https://www.udemy.com/course/ultimate-snowflake-challenges/?couponCode=LOWEST-PRICE) - get it here for **the LOWEST-PRICE**!
+
+[![Udemy Course](.images/udemy-course.png)](https://www.udemy.com/course/ultimate-snowflake-challenges/?couponCode=LOWEST-PRICE)
+
+## My Promo Video
+
+[![Watch Here](.images/youtube-promo.png)](https://youtu.be/-EL9zKLtp5w)
 
 ## Summary
 
